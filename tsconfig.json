@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/@darkobits/ts-unified/dist/config/tsconfig.json",
+  "include": ["./src"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "paths": {"*": ["*", "src/*"]}
+  }
+}
